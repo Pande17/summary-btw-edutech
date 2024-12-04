@@ -1,0 +1,60 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: rgb(255, 255, 255);
+	margin: 0;
+	padding: 0;
+	display: grid;
+}
+
+nav {
+	padding: 2vh 5vh;
+	display: flex;
+	background-color: rgb(133, 190, 255);
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav h2 {
+	display: inline;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+nav ul li { 
+	display: inline;
+	margin-right: 5vh;
+}
+
+section#about {
+	display: grid;
+}
+
+section#company {
+	background-color: rgb(133, 190, 255);
+}
+
+section#tools {
+	display: grid;
+}
+
+section#activity {
+	display: grid;
+	background-color: rgb(133, 190, 255);
+}
+
+section#project {
+	display: grid;
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+	padding: 2vh;
+	background-color: rgb(133, 190, 255);
+	align-items: center;
+}
