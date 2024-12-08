@@ -1,6 +1,26 @@
+.container {
+	display: grid;
+	margin: 2vh;
+	padding: 4vh;
+}
 
+.hero-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
 
-.txt-wht {
-    color: white;
-    font-weight: 500;
+.img-hero {
+	width: auto;
+	height: 40vh;
+	border-radius: 50%;
+	margin-left: 20px;
+}
+
+.tools-list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 2vh;
 }
