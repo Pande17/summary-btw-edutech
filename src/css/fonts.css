@@ -1,0 +1,40 @@
+.txt-wht {
+	color: white;
+	font-weight: 500;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 150%;
+	color: white;
+}
+
+nav h1 {
+	display: inline;
+	font-size: 150%;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 5vh;
+}
+
+.title {
+	font-size: 5em;
+	color: white;
+	text-align: center;
+}
+
+.title-section {
+	font-size: 5vh;
+	font-weight: 700;
+}
+
+.
