@@ -3,68 +3,86 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Pande PKL</title>
+		<title>Pande | PKL Summary</title>
 		<!-- add style -->
 		<link rel="stylesheet" href="src/css/global-styles.css" />
 		<!-- add js file -->
 		<script></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-		<link rel="icon" href="src/img/favicon.ico" type="image/x-icon" />
+		<script src="src/js/index.js"></script>
+		<link rel="icon" type="image/png" href="src/images/icon.png" />
 	</head>
 	<body>
 		<!-- navbar -->
-		<nav>
-			<h1><a href="#">Pande Feri</a></h1>
-			<ul>
-				<li><a href="#about">About</a></li>
-				<li><a href="#company">Company</a></li>
-				<li><a href="#tools">Tools</a></li>
-				<li><a href="#activity">Activity</a></li>
-				<li><a href="#project">Project</a></li>
+		<nav id="navbar">
+			<h1>
+				<a href="#"> <span class="glowsy-text">Pande</span> Feri</a>
+			</h1>
+			<div class="menu-toggle" id="menu-toggle">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<ul id="nav-links">
+				<li><a href="#">Home</a></li>
+				<li><a href="#company">About Company</a></li>
+				<!-- <li><a href="#company">About Company</a></li> -->
+				<!-- <li><a href="#tools">Tools</a></li>
+				<li><a href="#activity">Activity</a></li> -->
+				<li><a href="#project">My Project</a></li>
 			</ul>
 		</nav>
 
 		<!-- hero/header section -->
 		<section id="hero">
 			<div class="container hero-content">
-				<p>Hi, Saya</p>
-				<h1 class="title">Hi, Saya Pande Feri</h1>
+				<div class="text-content">
+					<span class="glowsy-text"><h1>Halo semua👋, saya</h1></span>
+					<h1 class="title">Pande Feri</h1>
+					<h3 class="txt-secondary">
+						"Halo! Saya Pande Feri, seorang siswa SMK TI Bali Global Denpasar jurusan Rekayasa Perangkat Lunak.
+						<span class="glowsy-text"> Saya memiliki minat besar dalam pengembangan backend dan manajemen database, dengan keahlian di Go dan MongoDB.</span>
+						Saya berkomitmen untuk menciptakan solusi digital yang efisien dan scalable, serta memastikan integrasi yang mulus antara server dan aplikasi frontend."
+					</h3>
+				</div>
 				<img src="src/images/pande-feri.jpeg" alt="Pande Feri" class="img-hero" />
 			</div>
-			<div class="container"></div>
 		</section>
 
 		<!-- about section -->
-		<section id="about">
+		<!-- <section id="about">
 			<div class="container">
-				<h1 class="title-section">ABOUT</h1>
-				<p>Melakukan Praktek Kerja Lapangan di BTW Edutech. Sebagai Backend Engineer Junior yang bertugas dalam pengembangan sistem aplikasi pada bagian API dan Database.</p>
+				<h1 class="title-section">Tentang Saya</h1>
+				<p class="desc-section">Melakukan Praktek Kerja Lapangan di BTW Edutech. Sebagai Backend Engineer Junior yang bertugas dalam pengembangan sistem aplikasi pada bagian API dan Database.</p>
 			</div>
-		</section>
+		</section> -->
 
 		<!-- company section -->
 		<section id="company">
-			<div class="container ">
-				<h1>Company</h1>
-				<p>This is about BTW Edutech</p>
+			<div class="container">
+				<h1 class="txt-wht title-section">Tentang BTW Edutech</h1>
+				<p>
+					BTW Edutech adalah startup digital Indonesia di bidang pendidikan yang dikembangkan oleh PT. Bina Taruna Wiratama. Fokus utama perusahaan adalah menyediakan layanan inovatif seperti asesmen diagnostik, latihan soal, dan bimbingan
+					belajar untuk mendukung persiapan seleksi masuk universitas, perguruan tinggi kedinasan, ASN, TNI, Polri, hingga program beasiswa dan sertifikasi profesional. Dengan teknologi informasi, BTW Edutech berkomitmen menciptakan
+					ekosistem edukasi yang membantu pengguna merancang karir masa depan mereka.
+				</p>
 			</div>
 		</section>
 
 		<!-- tools section -->
 		<section id="tools">
 			<div class="container tools-list">
-				<h1>Tools</h1>
-				<p>This is tools i used to</p>
-				<i class="fab fa-golang"></i>
-				<img src="https://cdn.simpleicons.org/railway/2F2A39" alt="Railway Logo" class="tool-logo" />
-				<img src="https://cdn.simpleicons.org/go/00ADD8" alt="Go Logo" class="tool-logo" />
+				<h1 class="title-section">Tools</h1>
+				<!-- <p>This is tools i used to</p> -->
+				<!-- <i class="fab fa-golang"></i> -->
+				<img src="https://cdn.simpleicons.org/railway/2F2A39" alt="Railway Logo" class="tools-logo" />
+				<img src="https://cdn.simpleicons.org/go/00ADD8" alt="Go Logo" class="tools-logo" />
 			</div>
 		</section>
 
 		<!-- activity section -->
 		<section id="activity">
 			<div class="container">
-				<h1>Activity</h1>
+				<h1 class="txt-wht title-section">Activity</h1>
 				<p>My Activity</p>
 			</div>
 		</section>
@@ -72,7 +90,7 @@
 		<!-- project section -->
 		<section id="project">
 			<div class="container">
-				<h1>Project</h1>
+				<h1 class="title-section">Project</h1>
 				<p>This is all my project on BTW Edutech</p>
 			</div>
 		</section>

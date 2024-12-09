@@ -3,12 +3,6 @@
 	font-weight: 500;
 }
 
-nav a {
-	text-decoration: none;
-	font-size: 150%;
-	color: white;
-}
-
 nav h1 {
 	display: inline;
 	font-size: 150%;
@@ -18,23 +12,40 @@ nav ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
-	display: inline;
+	display: flex;
 }
 
-nav ul li {
-	display: inline;
-	margin-right: 5vh;
+nav a {
+	font-size: 150%;
+	color: white;
+	text-decoration: none;
+	margin: 20px;
+}
+
+nav ul li a:hover {
+	border-bottom: solid 1px #fff;
 }
 
 .title {
 	font-size: 5em;
 	color: white;
-	text-align: center;
 }
 
 .title-section {
+	text-align: center;
 	font-size: 5vh;
 	font-weight: 700;
 }
 
-.
+.txt-wht {
+	color: white;
+}
+
+.txt-secondary {
+	color: #d7dce0;
+}
+
+.glowsy-text {
+	color: #00ffee;
+	text-shadow: 0 0 25px #00ffee;
+}
