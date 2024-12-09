@@ -5,7 +5,7 @@
 
 html {
 	scroll-behavior: smooth;
-	scroll-padding-top: 7rem;
+	scroll-padding-top: 5vh;
 }
 
 body {
@@ -53,7 +53,10 @@ section#about {
 
 section#company {
 	padding: 100px;
-	display: grid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 section#tools {
